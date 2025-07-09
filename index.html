@@ -17,7 +17,32 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <!-- NAV BUTTON -->
+    <span class="nav-btn" id="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
+    <!-- END OF NAV BUTTON -->
+
     <!-- NAV -->
+    <aside class="aside" id="aside">
+      <!-- sidebar header -->
+      <header class="sidebar-header">
+        <span class="close-btn" id="close-btn">
+          <i class="fas fa-times"></i>
+        </span>
+      </header>
+      <!-- end of sidebar header -->
+
+      <!-- sidebar links -->
+      <ul class="sidebar-links" id="sidebar-links">
+        <li><a class="sidebar-link" href="index.html">home</a></li>
+        <li><a class="sidebar-link" href="skills.html">skills</a></li>
+        <li><a class="sidebar-link" href="about.html">about</a></li>
+        <li><a class="sidebar-link" href="products.html">products</a></li>
+        <li><a class="sidebar-link" href="contact.html">contact</a></li>
+      </ul>
+      <!-- end of sidebar links -->
+    </aside>
     <!-- END OF NAV -->
 
     <!-- HEADER -->
@@ -341,6 +366,43 @@
     <!-- END OF CONTACT US -->
 
     <!-- FOOTER -->
+    <footer class="footer">
+      <section class="section-center">
+        <!-- social icons -->
+        <div class="social-icons">
+          <!-- single social icon -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <!-- end of single social icon -->
+          <!-- single social icon -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- end of single social icon -->
+          <!-- single social icon -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <!-- end of single social icon -->
+          <!-- single social icon -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <!-- end of single social icon -->
+        </div>
+        <!-- end of social icons -->
+
+        <!-- footer text -->
+        <h4 class="footer-text">
+          &copy; <span id="year"></span>
+          <span class="company">tea station</span> all rights reserved.
+        </h4>
+      </section>
+    </footer>
     <!-- END OF FOOTER -->
+
+    <!-- app -->
+    <script src="./app.js"></script>
   </body>
 </html>
